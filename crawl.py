@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 #
-# crawl.py - Greenlets-based Bitcoin network crawler.
+# crawl.py - Greenlets-based Thought network crawler.
 #
 # Copyright (c) Addy Yeow Chin Heng <ayeowch@gmail.com>
 #
@@ -25,7 +25,7 @@
 # WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 """
-Greenlets-based Bitcoin network crawler.
+Greenlets-based Thought network crawler.
 """
 
 from gevent import monkey

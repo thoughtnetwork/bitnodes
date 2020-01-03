@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 #
-# protocol.py - Bitcoin protocol access for Bitnodes.
+# protocol.py - Thought protocol access for Bitnodes.
 #
 # Copyright (c) Addy Yeow Chin Heng <ayeowch@gmail.com>
 #
@@ -25,12 +25,12 @@
 # WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 """
-Bitcoin protocol access for Bitnodes.
+Thought protocol access for Bitnodes.
 Reference: https://en.bitcoin.it/wiki/Protocol_specification
 
 -------------------------------------------------------------------------------
-                     PACKET STRUCTURE FOR BITCOIN PROTOCOL
-                           protocol version >= 70001
+                     PACKET STRUCTURE FOR THOUGHT PROTOCOL
+                           protocol version >= 70017
 -------------------------------------------------------------------------------
 [---MESSAGE---]
 [ 4] MAGIC_NUMBER               (\xF9\xBE\xB4\xD9)                  uint32_t
@@ -151,14 +151,14 @@ from cStringIO import StringIO
 from io import SEEK_CUR
 from operator import itemgetter
 
-MAGIC_NUMBER = "\xF9\xBE\xB4\xD9"
-PORT = 8333
-MIN_PROTOCOL_VERSION = 70001
-PROTOCOL_VERSION = 70015
+MAGIC_NUMBER = "\x59\x47\x2e\xe4"
+PORT = 10618
+MIN_PROTOCOL_VERSION = 70017
+PROTOCOL_VERSION = 70018
 FROM_SERVICES = 0
 TO_SERVICES = 1  # NODE_NETWORK
-USER_AGENT = "/bitnodes.earn.com:0.1/"
-HEIGHT = 478000
+USER_AGENT = "/thought.bitnodes.earn.com:0.1/"
+HEIGHT = 579320
 RELAY = 0  # set to 1 to receive all txs
 
 SOCKET_BUFSIZE = 8192

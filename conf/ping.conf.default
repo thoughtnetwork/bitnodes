@@ -1,10 +1,10 @@
 [ping]
 
 # Logfile
-logfile = log/ping.f9beb4d9.log
+logfile = log/ping.59472ee4.log
 
 # Network magic number
-magic_number = f9beb4d9
+magic_number = 59472ee4
 
 # Redis database number
 db = 0
@@ -19,7 +19,7 @@ debug = False
 source_address = 0.0.0.0
 
 # Protocol version to use for outgoing version message
-protocol_version = 70015
+protocol_version = 70018
 
 # User agent (BIP 0014) to use for outgoing version message
 # -----------------------------------------------------------------------------
@@ -56,4 +56,4 @@ onion = True
 tor_proxy = 127.0.0.1:9050
 
 # Relative path to directory containing timestamp-prefixed JSON crawl files
-crawl_dir = data/crawl/f9beb4d9
+crawl_dir = data/crawl/59472ee4

@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 #
-# ping.py - Greenlets-based Bitcoin network pinger.
+# ping.py - Greenlets-based Thought network pinger.
 #
 # Copyright (c) Addy Yeow Chin Heng <ayeowch@gmail.com>
 #
@@ -25,7 +25,7 @@
 # WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 """
-Greenlets-based Bitcoin network pinger.
+Greenlets-based Thought network pinger.
 """
 
 from gevent import monkey
